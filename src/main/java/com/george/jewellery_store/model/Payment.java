@@ -8,7 +8,7 @@ public class Payment {
     private LocalDate paymentDate;
     private String paymentMethod;
     private Float amount;
-    private int cardNumber;
+    private String cardNumber;
     private String cardName;
     private int cardExpMonth;
     private int cardExpYear;
@@ -50,11 +50,11 @@ public class Payment {
         this.amount = amount;
     }
 
-    public int getCardNumber() {
+    public String getCardNumber() {
         return cardNumber;
     }
 
-    public void setCardNumber(int cardNumber) {
+    public void setCardNumber(String cardNumber) {
         this.cardNumber = cardNumber;
     }
 
