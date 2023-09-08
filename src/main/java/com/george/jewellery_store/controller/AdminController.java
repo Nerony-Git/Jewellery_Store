@@ -380,7 +380,7 @@ public class AdminController extends HttpServlet {
         order.setShippingAddress(shippingAddress);
         order.setPaymentMethod(paymentMethod);
         order.setOrderStatus(orderStatus);
-        order.setCardNumber(Integer.parseInt(cardNumber));
+        order.setCardNumber(cardNumber);
         order.setCardName(cardName);
         order.setCardExpMonth(expMonth);
         order.setCardExpYear(expYear);
