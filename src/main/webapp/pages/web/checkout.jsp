@@ -32,11 +32,6 @@
                     <div class="m-l-25 m-r--38 m-lr-0-xl">
                         <div class="wrap-table-shopping-cart">
                             <table class="table table-shopping-cart">
-                                <%--<tr class="table_head">
-                                    <th class="column-1">Product</th>
-                                    <th class="column-2"></th>
-                                    <th class="column-3">Price</th>
-                                </tr>--%>
 
                                 <tr>
                                     <th style="width: 5%" rowspan="3">1</th>
@@ -70,7 +65,7 @@
                                         <label class="form-label" for="cardNumber">Card Number</label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="card"><i class="fa-brands fa-cc-visa"></i> </span>
-                                            <input type="number" name="cardNumber" class="form-control" id="cardNumber" required>
+                                            <input type="text" name="cardNumber" class="form-control" id="cardNumber" required>
                                         </div>
                                     </td>
                                 </tr>
@@ -175,35 +170,6 @@
                                     Free Shipping
                                 </p>
 
-                                <%--<div class="p-t-15">
-									<span class="stext-112 cl8">
-										Calculate Shipping
-									</span>
-
-                                    <div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
-                                        <select class="js-select2" name="time">
-                                            <option>Select a country...</option>
-                                            <option>USA</option>
-                                            <option>UK</option>
-                                        </select>
-                                        <div class="dropDownSelect2"></div>
-                                    </div>
-
-                                    <div class="bor8 bg0 m-b-12">
-                                        <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeholder="State /  country">
-                                    </div>
-
-                                    <div class="bor8 bg0 m-b-22">
-                                        <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="postcode" placeholder="Postcode / Zip">
-                                    </div>
-
-                                    <div class="flex-w">
-                                        <div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer">
-                                            Update Totals
-                                        </div>
-                                    </div>
-
-                                </div>--%>
                             </div>
                         </div>
 
