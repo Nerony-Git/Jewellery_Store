@@ -86,7 +86,7 @@ public class OrderDao {
                 paymentStatement.setString(1, newOrderID);
                 paymentStatement.setString(2, order.getPaymentMethod());
                 paymentStatement.setFloat(3, order.getTotalAmount());
-                paymentStatement.setInt(4, order.getCardNumber());
+                paymentStatement.setString(4, order.getCardNumber());
                 paymentStatement.setString(5, order.getCardName());
                 paymentStatement.setInt(6, order.getCardExpMonth());
                 paymentStatement.setInt(7, order.getCardExpYear());
