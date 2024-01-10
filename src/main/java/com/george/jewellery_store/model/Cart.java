@@ -10,7 +10,7 @@ public class Cart {
     private Float productPrice;
 
     public Cart(){
-
+        /*Cart*/
     }
 
     public Cart(String productID, String productName, String productImagePath, Float productPrice, int quantity) {
